@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+}
+
+.dashboard {
+  background: #333;
+  color: #ccc;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004080;
+}
+
+.contact-btn {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  background: white;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  background: #f8f9fa;
+}
+
+.hero-text {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  line-height: 1.3;
+}
+
+.stress-free {
+  color: #e63946;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #555;
+}
+
+.why-choose {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.email-subscribe {
+  display: flex;
+  margin-top: 20px;
+}
+
+.email-subscribe input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  padding: 12px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  background: #f8f9fa;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 220px;
+  margin: 20px;
+}
+
+.arrow {
+  font-size: 30px;
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.blue {
+  background-color: #0077b6;
+}
+
+.pink {
+  background-color: #e63946;
+}
+
+.green {
+  background-color: #38b000;
+}
+
+.feature h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #555;
+}
